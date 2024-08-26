@@ -18,19 +18,21 @@ public class Q07_Pattern7 {
         upwardPyramid(n);
 
     }
-
+    
     public static void upwardPyramid(int row){
         for (int i = 0; i < row; i++) {
             
-            for (int j = row; j > i; j--) {
+            // Inner-loop for preceeding spaces of the first upward triangle:
+            for (int j = row - 1; j > i; j--) {
                 System.out.print(" ");
             }
             
+            // Inner-loop for the first upward triangle:
             for (int k = 0; k <= i; k++) {
                 System.out.print("*");
             }
             
-            
+            // Inner-loop for the 2nd upward triangle:
             for(int l = 0; l<=i-1; l++){
                 System.out.print("*");
             }
