@@ -1,3 +1,8 @@
+// *********
+//  *******
+//   *****
+//    ***
+//     *
 
 import java.util.Scanner;
 
@@ -7,9 +12,14 @@ public class Q08_Pattern8 {
         Scanner sc = new Scanner(System.in);
         
         System.out.print("Input n: ");
-        int row = sc.nextInt();
-        
+        int n = sc.nextInt();
         sc.close();
+
+        downwardPyramid(n);
+ 
+    }
+
+    static void downwardPyramid(int row){
 
         for (int i = 0; i < row; i++) {
 
@@ -29,7 +39,6 @@ public class Q08_Pattern8 {
             }
 
             System.out.println();
- 
         }
     }
 }
