@@ -110,3 +110,9 @@ Q. A) Print the following patterns:
       ABCBA
      ABCDCBA
     ABCDEDCBA
+
+18. E
+    D E
+    C D E
+    B C D E
+    A B C D E
