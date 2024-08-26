@@ -12,13 +12,17 @@ public class Q07_Pattern7 {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Input n: ");
-        int rows = sc.nextInt();
-
+        int n = sc.nextInt();
         sc.close();
 
-        for (int i = 0; i < rows; i++) {
+        upwardPyramid(n);
+
+    }
+
+    public static void upwardPyramid(int row){
+        for (int i = 0; i < row; i++) {
             
-            for (int j = rows; j > i; j--) {
+            for (int j = row; j > i; j--) {
                 System.out.print(" ");
             }
             
@@ -32,6 +36,6 @@ public class Q07_Pattern7 {
             }
             System.out.println();
         }
-
     }
+
 }
