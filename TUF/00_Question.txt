@@ -98,3 +98,15 @@ Q. A) Print the following patterns:
     ABC
     AB
     A
+
+16. A
+    BB
+    CCC
+    DDDD
+    EEEEE
+
+17.     A
+       ABA
+      ABCBA
+     ABCDCBA
+    ABCDEDCBA
