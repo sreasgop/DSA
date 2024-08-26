@@ -12,16 +12,19 @@ public class Q06_Pattern6 {
 		Scanner sc = new Scanner(System.in);
 
 		System.out.print("Input n: ");
-		int rows = sc.nextInt();
-		System.out.println();
+		int n = sc.nextInt();
 		sc.close();
 
-		for (int i = rows; i > 0; i--) {
+		downwardNumTriangle(n);
+
+	}
+
+	public static void downwardNumTriangle(int row){
+		for (int i = row; i > 0; i--) {
 			for (int j = 1; j <= i; j++) {
 				System.out.print(j);
 			}
 			System.out.println();
 		}
-
 	}
 }

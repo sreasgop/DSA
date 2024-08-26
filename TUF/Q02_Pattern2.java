@@ -13,16 +13,19 @@ public class Q02_Pattern2 {
 
 		System.out.print("Input n: ");
 		int n = sc.nextInt();	// Rows of Pattern
-		System.out.println();
 		sc.close();
 		
+		rightTriangle(n);
 
-		for (int i = 0; i < n; i++) {
-			for (int j = 0; j <= i; j++) {
+	}
+
+	public static void rightTriangle(int row){
+		for (int i = 1; i <= row; i++) {
+			for (int j = 1; j <= i; j++) {
 				System.out.print("*");
 			}
 			System.out.println();
-		}
-
+		}	
 	}
+
 }

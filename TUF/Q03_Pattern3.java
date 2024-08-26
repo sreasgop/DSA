@@ -12,16 +12,20 @@ public class Q03_Pattern3 {
 		Scanner sc = new Scanner(System.in);
 
 		System.out.print("Input n: ");
-		int rows = sc.nextInt();
-		System.out.println();
+		int n = sc.nextInt();
 		sc.close();
 
-		for (int i = 1; i <= rows; i++) {
+		numRightTriangle(n);
+
+	}
+
+	public static void numRightTriangle(int row){
+		for (int i = 1; i <= row; i++) {
 			for (int j = 1; j <= i; j++) {
 				System.out.print(j);
 			}
 			System.out.println();
 		}
-
 	}
+
 }

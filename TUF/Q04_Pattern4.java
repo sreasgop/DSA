@@ -12,15 +12,20 @@ public class Q04_Pattern4 {
 		Scanner sc = new Scanner(System.in);
 
 		System.out.print("Input n: ");
-		int rows = sc.nextInt();
-		System.out.println();
+		int n = sc.nextInt();
 		sc.close();
 
-		for (int i = 1; i <= rows; i++) {
+		numTriangle(n);
+	
+	}
+
+	public static void numTriangle(int row){
+		for (int i = 1; i <= row; i++) {
 			for (int j = 1; j <= i; j++) {
 				System.out.print(i);
 			}
 			System.out.println();
 		}
 	}
+
 }
