@@ -1,3 +1,8 @@
+// A
+// AB
+// ABC
+// ABCD
+// ABCDE
 
 import java.util.Scanner;
 
