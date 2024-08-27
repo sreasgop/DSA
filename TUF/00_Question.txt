@@ -19,10 +19,10 @@ Q. A) Print the following patterns:
     12345
 
 4.  1
-    12
-    123
-    1234
-    12345
+    22
+    333
+    4444
+    55555
 
 5.  *****
     ****
@@ -127,3 +127,5 @@ Q. A) Print the following patterns:
     ***    ***
     ****  ****
     **********
+
+20. 
