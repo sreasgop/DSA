@@ -75,11 +75,10 @@ Print the following patterns (applicable for Q1 - Q22):
     0101
     10101
 
-12. 1
-    01
-    101
-    0101
-    10101
+12. 1      1
+    12    21
+    123  321
+    12344321
 
 13. 1
     2 3
@@ -153,3 +152,7 @@ Print the following patterns (applicable for Q1 - Q22):
 25. Given an integer N, return true if it is a palindrome else return false.
 
 26. Given two integers N1 and N2, find their greatest common divisor (GCD/HCF).
+
+27. Given an integer N, return true it is an Armstrong number otherwise return false.
+
+28. Given an integer N, return all divisors of N.
