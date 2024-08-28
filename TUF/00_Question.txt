@@ -137,3 +137,9 @@ Q. A) Print the following patterns:
     ***    ***
     **      **
     *        *
+
+21. * * * * *
+    *       *
+    *       *
+    *       *
+    * * * * *
