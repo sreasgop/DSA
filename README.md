@@ -1,8 +1,8 @@
 Directory Structure: 
 
 ```
-    .                                                                                                                                                            
-    ├── JennysLectures                                                                                                                                           
-    ├── Practice                                                                                                                                                 
+    .                        
+    ├── JennysLectures       
+    ├── Practice             
     └── TUF
 ```
