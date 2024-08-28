@@ -1,4 +1,4 @@
-Print the following patterns applicable for Q1 - Q22:
+Print the following patterns (applicable for Q1 - Q22):
 
 1.  *****
     *****
@@ -152,4 +152,4 @@ Print the following patterns applicable for Q1 - Q22:
 
 25. Given an integer N, return true if it is a palindrome else return false.
 
-26. Given two integers N1 and N2, find their greatest common divisor.
+26. Given two integers N1 and N2, find their greatest common divisor (GCD/HCF).
