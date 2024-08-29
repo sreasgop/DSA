@@ -166,3 +166,5 @@ Print the following patterns (applicable for Q1 - Q22):
 32. Print N to 1 using recurison.
 
 33. Print the sum of first N natural numbers using recursion.
+
+34. Print the factorial of N (Using Iterative Way).
