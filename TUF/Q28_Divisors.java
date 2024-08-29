@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class Q29_Divisors {
+public class Q28_Divisors {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
