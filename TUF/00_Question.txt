@@ -162,3 +162,5 @@ Print the following patterns (applicable for Q1 - Q22):
 30. Understand recursion by printing something n times.
 
 31. Print 1 to N using recursion.
+
+32. Print N to 1 using recurison.
