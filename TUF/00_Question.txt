@@ -180,3 +180,5 @@ Print the following patterns (applicable for Q1 - Q22):
 39. Given a string, check if the string is palindrome or not. [Recursive Way]
 
 40. Given an integer N. Print the Fibonacci series up to the Nth term. (Using Iterative Approach)
+
+41. Given an integer N. Print the Fibonacci series up to the Nth term. (Using Recursive Approach)
