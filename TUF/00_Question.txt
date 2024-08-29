@@ -170,3 +170,5 @@ Print the following patterns (applicable for Q1 - Q22):
 34. Print the factorial of N (Using Iterative Way).
 
 35. Print the factorial of N (Using Recursion).
+
+36. Reverse an array using iterative method.
