@@ -164,3 +164,5 @@ Print the following patterns (applicable for Q1 - Q22):
 31. Print 1 to N using recursion.
 
 32. Print N to 1 using recurison.
+
+33. Print the sum of first N natural numbers using recursion.
