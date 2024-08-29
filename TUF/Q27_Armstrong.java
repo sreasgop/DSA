@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Q28_Armstrong {
+public class Q27_Armstrong {
     public static void main(String[] args) {
         
         Scanner sc = new Scanner(System.in);
