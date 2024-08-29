@@ -178,3 +178,5 @@ Print the following patterns (applicable for Q1 - Q22):
 38. Given a string, check if the string is palindrome or not."  A string is said to be palindrome if the reverse of the string is the same as the string. [Iterative Way]
 
 39. Given a string, check if the string is palindrome or not. [Recursive Way]
+
+40. Given an integer N. Print the Fibonacci series up to the Nth term. (Using Iterative Approach)
