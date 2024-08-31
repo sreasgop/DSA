@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Q42_DivisionRuleHasing {
+public class Q42_IntegerHashing {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
