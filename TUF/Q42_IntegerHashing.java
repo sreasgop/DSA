@@ -18,9 +18,15 @@ public class Q42_IntegerHashing {
 
 		int[] hasharray = hashArr(arr);
 
-		System.out.print("Enter element to look up frequency: ");
-		int e = sc.nextInt();
-		System.out.println("Frequency: " + hasharray[e]);
+		System.out.print("Number of elements to look up: ");
+		int size = sc.nextInt();
+
+		System.out.printf("Enter %d elements to look up: ", size);
+		System.out.println("Frequency: ");
+		while (size-- != 0) {
+			int num = sc.nextInt();
+			System.out.print(hasharray[num] + " ");
+		}
 
 		sc.close();
 	}
