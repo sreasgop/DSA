@@ -1,3 +1,6 @@
+// Given any string, then we are given some queries. For each query, we need to find out how many times the character appears in the string.
+// Any ASCII characters should have their frequency counted individually. 'A' and 'a' should be treated differently as they below to difference cases.
+
 import java.util.Scanner;
 
 public class Q44_ASCIIHashing {
@@ -7,7 +10,8 @@ public class Q44_ASCIIHashing {
 		System.out.print("Enter String: ");
 		String str = sc.nextLine();
 
-		// ASCII characters go up to corresponding values of 256 and that's why we would need a hash array of 256 elements. 
+		// ASCII characters go up to corresponding values of 256 and that's why we would
+		// need a hash array of 256 elements.
 		int[] hashArray = new int[256];
 
 		for (int i = 0; i < str.length(); i++) {
