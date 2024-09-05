@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-class tUf {
+class Q45_HashingUsingMap {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -43,5 +43,7 @@ class tUf {
 			else
 				System.out.println(0);
 		}
+
+		sc.close();
 	}
 }
