@@ -14,13 +14,13 @@ public class Q40_FibonacciIterative {
 		System.out.println();
 	}
 
-	static void NthFibo(int num1) {
+	static void NthFibo(int num) {
 
 		int firstTerm = 0;
 		int secondTerm = 1;
 		int nextTerm = 0;
 
-		for (int i = 0; i < num1; i++) {
+		for (int i = 0; i < num; i++) {
 			System.out.print(firstTerm + " ");
 			nextTerm = firstTerm + secondTerm;
 			firstTerm = secondTerm;
