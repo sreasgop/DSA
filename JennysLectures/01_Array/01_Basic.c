@@ -15,6 +15,9 @@ int main(){
     // NOTE: 
     // Dimensions of array: An array in C can be of the following dimensions
     // 1D array (One Dimensional Array): An array with 1 Row
+    // 2D array
+    // Multi-dimensional array
+
 
     // Initializing an array at compile time
     int a[5] = {1, 2, 3, 4, 5};
